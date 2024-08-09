@@ -3,13 +3,11 @@ package org.codestars.tenttalk_api.controllers;
 
 import org.codestars.tenttalk_api.models.Campground;
 import org.codestars.tenttalk_api.models.data.CampgroundRepository;
-
 import org.codestars.tenttalk_api.service.CampgroundService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 
